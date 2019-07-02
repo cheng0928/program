@@ -155,7 +155,20 @@
 	background-color: #EF767A;
 	transition: all 0.3s;
 }
+.text-btn.text-btn--lg--blue:before{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0%;
+	height: 2px;
+	background-color: #6487f5;
+	transition: all 0.3s;
+}
 .text-btn.text-btn--lg:hover:before{
+		width: 100%;
+}
+.text-btn.text-btn--lg--blue:hover:before{
 		width: 100%;
 }
 
