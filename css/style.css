@@ -250,9 +250,10 @@
 .popup-menu{
 	position: fixed;
 	top:0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+	right: 0;
+	width: 20%;
+	height: 80%;
+	border-radius: 8px;
 	background-color: #fff;
 	transition: all 0.3s;
 	opacity: 0;
@@ -299,10 +300,10 @@
 	display: block;
 	text-align: center;
 	font-family:'Noto Sans TC','Raleway','Helvetica','roboto', arial, sans-serif;
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: 900;
 	color: #A770EF;
-	line-height: 80px;
+	line-height: 100px;
 	transition: all 0.3s;
 }
 @media (max-width: 768px){
