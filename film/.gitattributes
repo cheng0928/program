@@ -1,2 +1,2 @@
-﻿film/開幕典禮.mp4 filter=lfs diff=lfs merge=lfs -text
-film/*.mp4 filter=lfs diff=lfs merge=lfs -text
+﻿開幕典禮.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
